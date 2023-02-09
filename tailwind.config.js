@@ -6,7 +6,7 @@ content: [
 plugins: [
   require('daisyui'),
 ]
-theme: {
+,theme: {
 extend: {
   fontFamily: {
     sans: ["Poppins"],
