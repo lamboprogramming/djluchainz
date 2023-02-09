@@ -5,12 +5,14 @@ import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import img from '../../public/assets/hero/twindj.png'
 import Footer from '../pages/Footer'
+import Heropage from './home/Heropage'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
+      <Heropage />
       <Footer/>
     </>
   )
