@@ -13,6 +13,8 @@ export default function Home() {
     <>
       <Navbar />
       <Heropage />
+
+      
       <Footer/>
     </>
   )

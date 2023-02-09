@@ -3,6 +3,7 @@ import Image from 'next/image'
 import logo from "../../public/assets/logo1.png"
 import Link from 'next/link'
 
+
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
   return (
@@ -63,17 +64,17 @@ const Navbar = () => {
                             </li>
                             </Link>
                        
-                            <Link href="/music">
+                            <Link href="/#music">
                             <li className="py-2 hover:scale-125">Music
                             </li>
                             </Link>
                             
-                            <Link href="/media">
+                            <Link href="/media/Media" >
                             <li className="py-2 hover:scale-125">Media
                             </li>
                             </Link>
                             
-                            <Link href="/contact">
+                            <Link href="/#contact">
                             <li className="py-2 hover:scale-125">Contact
                             </li>
                             </Link>
