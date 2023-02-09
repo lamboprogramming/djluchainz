@@ -54,28 +54,28 @@ const Navbar = () => {
                 </div>
                 <div>
                     <div
-                        className={`flex-1 text-center justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 nav-links font-extrabold capitalize text-xl  ${
+                        className={`flex-1 text-center justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 nav-links font-extrabold capitalize text-sm  ${
                             navbar ? "block" : "hidden"
                         }`}
                     >
                         <ul className="items-center justify-center px-4 pt-1 pb-2 mt-2 space-y-8 tracking-widest md:flex md:space-x-6 md:space-y-0 bg-gradient-to-r from-fuchsia-700 to-indigo-500 rounded-xl md:bg-black md:rounded-none md:bg-gradient-to-r md:from-transparent md:to-transparent text-white">
                             <Link href="/">
-                            <p className="py-2 hover:scale-125">Home
+                            <p className="py-2 hover:scale-125">HOME
                             </p>
                             </Link>
                        
-                            <Link href="/#music">
-                            <p className="py-2 hover:scale-125">Music
+                            <Link href="/music/Music">
+                            <p className="py-2 hover:scale-125">MUSIC
                             </p>
                             </Link>
                             
-                            <Link href="Media" >
-                            <p className="py-2 hover:scale-125">Media
+                            <Link href="/Media" >
+                            <p className="py-2 hover:scale-125">MEDIA
                             </p>
                             </Link>
                             
                             <Link href="/#contact">
-                            <p className="py-2 hover:scale-125">Contact
+                            <p className="py-2 hover:scale-125">CONTACT
                             </p>
                             </Link>
                         </ul>

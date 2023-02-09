@@ -24,7 +24,7 @@ const Media = () => {
   return (
     <div>
       <Navbar />
-    <div className='bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 font-[Abel] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 pt-2 p-20'>
+    <div className='bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 font-[Abel] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 pt-8 p-20'>
     {/* Bella */}
     <div className='self-center text-center bg-black '>
       <Image className='rounded-md' src={b1} alt="/" />
