@@ -60,23 +60,23 @@ const Navbar = () => {
                     >
                         <ul className="items-center justify-center px-4 pt-1 pb-2 mt-2 space-y-8 tracking-widest md:flex md:space-x-6 md:space-y-0 bg-gradient-to-r from-fuchsia-700 to-indigo-500 rounded-xl md:bg-black md:rounded-none md:bg-gradient-to-r md:from-transparent md:to-transparent text-white">
                             <Link href="/">
-                            <li className="py-2 hover:scale-125">Home
-                            </li>
+                            <p className="py-2 hover:scale-125">Home
+                            </p>
                             </Link>
                        
                             <Link href="/#music">
-                            <li className="py-2 hover:scale-125">Music
-                            </li>
+                            <p className="py-2 hover:scale-125">Music
+                            </p>
                             </Link>
                             
-                            <Link href="/media/Media" >
-                            <li className="py-2 hover:scale-125">Media
-                            </li>
+                            <Link href="Media" >
+                            <p className="py-2 hover:scale-125">Media
+                            </p>
                             </Link>
                             
                             <Link href="/#contact">
-                            <li className="py-2 hover:scale-125">Contact
-                            </li>
+                            <p className="py-2 hover:scale-125">Contact
+                            </p>
                             </Link>
                         </ul>
                     </div>

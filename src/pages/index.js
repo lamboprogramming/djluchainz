@@ -11,11 +11,10 @@ import Navbar from './Navbar'
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Heropage />
-
+    <Navbar />
+    <Heropage />
+    <Footer />
       
-      <Footer/>
     </>
   )
 }
