@@ -4,6 +4,8 @@ import twin from '../../public/assets/hero/twindj.png'
 import Footer from './Footer'
 import Social from './Social'
 import emailjs from '@emailjs/browser'
+import Navbar from './Navbar'
+import Contactbanner from './Contactbanner'
 
 const Contact = () => {
   const [from_name, setFrom_Name] = useState('')
@@ -32,6 +34,9 @@ const Contact = () => {
   }
   
     return (
+      <>
+      <Navbar />
+      <Contactbanner />
   <div className="grid grid-cols-1 bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 font-[Abel]">
   
   {/* Col 1 Bio & Social*/}
@@ -44,7 +49,7 @@ const Contact = () => {
 
           {/* Twin photo */}
             <div className="grid justify-center">
-              <Image className="hidden max-w-sm rounded-md lg:block max-h-[100%] " priority src={twin} alt="/" />
+              <Image className="hidden max-w-sm rounded-md lg:block max-h-[98%] " priority src={twin} alt="/" />
             </div>
 
            {/* Biography */}
@@ -59,16 +64,17 @@ const Contact = () => {
           </div>
        </section>
       </div>
+        {/* Social */}
       <div className=' lg:hidden'>
       <Social />
       </div>
   </div>
 
-  {/* Social */}
+
 
   {/* Col 2 contact form */}
   <div className="container px-8 mx-auto rounded-xl">
-  <section className="mt-12 mb-6 text-center text-white">
+  <section className=" mb-6 text-center text-white">
     <div className="max-w-[700px] mx-auto px-3 lg:px-6 py-6 shadow-2xl border-b-yellow-400 border-r-yellow-400 border-r-4 border-b-4 rounded-3xl  font-[Abel] ">
       <h2 className="mb-12 text-lg tracking-widest md:text-2xl ">CONTACT</h2>
       <div id="contact" action="" method="post">
@@ -145,6 +151,7 @@ const Contact = () => {
   <Footer />
   
   </div>
+  </>
     );
   }
   

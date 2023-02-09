@@ -18,7 +18,7 @@ import hall11 from '../../public/assets/media/hall11.JPG'
 import hall12 from '../../public/assets/media/hall12.JPG'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import Mediasounds from './Mediasounds'
+import Mediasounds from './Mediabanner'
 
 
 const Media = () => {

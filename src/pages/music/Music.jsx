@@ -1,4 +1,4 @@
-import Sounds from './Sounds'
+import Musicbanner from './Musicbanner'
 import Cards from './Cards'
 import Footer from '../Footer';
 import Navbar from '../Navbar'
@@ -11,7 +11,7 @@ const Music = () => {
       <Navbar />
       <div className="h-screen bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
       <div className=" bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
-      <Sounds  />
+      <Musicbanner  />
       <Cards />
       <Footer />
   </div>
