@@ -74,7 +74,7 @@ const Navbar = () => {
                             </p>
                             </Link>
                             
-                            <Link href="/#contact">
+                            <Link href="/Contact">
                             <p className="py-2 hover:scale-125">CONTACT
                             </p>
                             </Link>

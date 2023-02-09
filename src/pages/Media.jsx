@@ -18,75 +18,77 @@ import hall11 from '../../public/assets/media/hall11.JPG'
 import hall12 from '../../public/assets/media/hall12.JPG'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Mediasounds from './Mediasounds'
 
 
 const Media = () => {
   return (
     <div>
       <Navbar />
+      <Mediasounds />
     <div className='bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 font-[Abel] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 pt-8 p-20'>
     {/* Bella */}
     <div className='self-center text-center bg-black '>
-      <Image className='rounded-md' src={b1} alt="/" />
+      <Image className='rounded-md border-4 border-black ' src={b1} alt="/" />
     </div>
 
     <div className='self-center text-center bg-black'>
-    <Image className='rounded-md' src={b2} alt="/" />
+    <Image className='rounded-md border-4 border-black' src={b2} alt="/" />
     </div>
 
     <div className='self-center text-center'>
-    <Image className='rounded-md' src={b3} alt="/" />
+    <Image className='rounded-md border-4 border-black' src={b3} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='rounded-md' src={b4} alt="/" />
+    <Image className='rounded-md border-4 border-black' src={b4} alt="/" />
     </div>
     
     <div className='self-center text-center bg-black'>
-    <Image className='rounded-md' src={hall1} alt="/" />
+    <Image className='rounded-md border-4 border-black' src={hall1} alt="/" />
     </div>
     
     <div className='self-center text-center bg-black'>
-    <Image className='rounded-md' src={hall2} alt="/" />
+    <Image className='rounded-md border-4 border-black' src={hall2} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='rounded-md' src={hall3} alt="/" />
+    <Image className='rounded-md border-4 border-black' src={hall3} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='rounded-md' src={hall4} alt="/" />
+    <Image className='rounded-md border-4 border-black' src={hall4} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='rounded-md' src={hall5} alt="/" />
+    <Image className='rounded-md border-4 border-black' src={hall5} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='rounded-md' src={hall6} alt="/" />
+    <Image className='rounded-md border-4 border-black' src={hall6} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='rounded-md' src={hall7} alt="/" />
+    <Image className='rounded-md border-4 border-black' src={hall7} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='rounded-md' src={hall8} alt="/" />
+    <Image className='rounded-md border-4 border-black' src={hall8} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='rounded-md' src={hall9} alt="/" />
+    <Image className='rounded-md border-4 border-black' src={hall9} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image  className='rounded-md'  src={hall10} alt="/" />
+    <Image  className='rounded-md border-4 border-black'  src={hall10} alt="/" />
     </div>
     
     <div className='self-center text-center'>
-    <Image className='rounded-md' src={hall11} alt="/" />
+    <Image className='rounded-md border-4 border-black' src={hall11} alt="/" />
     </div>
     <div className='self-center text-center'>
-    <Image className='rounded-md' src={hall12} alt="/" />
+    <Image className='rounded-md border-4 border-black' src={hall12} alt="/" />
     </div>
 
     </div>
