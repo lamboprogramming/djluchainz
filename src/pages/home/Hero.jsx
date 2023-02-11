@@ -22,7 +22,7 @@ const Hero = () => {
 
                      {/* Contact Button */}
                     <Link href="/contact">
-                         <button className="lg:w-44 px-4 py-[.5%] text-2xl font-bold text-white lg:text-yellow-400  border-2 border-white lg:border-yellow-400 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[20] mr-1 hover:rounded-3xl duration-500 nav-links tracking-widest mt-2 md:mt-4 lg:mt-30 font-[Abel]">Contact
+                         <button className="lg:w-44 px-4 py-[.5%] md:text-2xl font-bold text-white lg:text-yellow-400  border-2 border-white lg:border-yellow-400 rounded-md bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 sm:w-[20] mr-1  nav-links tracking-widest mt-2 md:mt-4 lg:mt-30 font-[Abel]">CONTACT
                          </button>
                     </Link> 
 

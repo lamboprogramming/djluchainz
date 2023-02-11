@@ -5,8 +5,8 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <div>
-    <footer className="p-4 shadow bg-black md:px-6 md:py-8 dark:bg-gray-900">
-    <div className="sm:flex sm:items-center sm:justify-between">
+    <footer className="p-4 bg-black shadow md:px-6 md:py-8 dark:bg-gray-900">
+    <div className="text-xl sm:flex sm:items-center sm:justify-between">
         <a href="/" className="flex items-center mb-4 sm:mb-0">
             <Image src={logo} priority className="w-[130px] ml-3" alt="DJ Logo" />
             {/* text next to logo */}
